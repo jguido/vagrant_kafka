@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
      "KAFKA_NAME" => "kafka_2.11-$KAFKA_VERSION",
      "KAFKA_TARGET" => "/vagrant/tars/",
      "KAFKA_HOME" => "$HOME/$KAFKA_NAME",
-     "JAVA_REVISION" => "151",
+     "JAVA_REVISION" => "161",
      "JDK_VERSION" => "jdk-8u$JAVA_REVISION-linux-x64",
      "JDK_RPM" => "$JDK_VERSION.rpm"
   }
